@@ -55,7 +55,24 @@ public class MainActivity extends AppCompatActivity {
             {"鸢尾蓝","yuanweilan","#158bb8"},
             {"涧石蓝","jianshilan","#66a9c9"},
             {"牵牛花蓝","qianniuhualan","#1177b0"},
-            {"美蝶绿","meidielv","#12aa9c"}
+            {"美蝶绿","meidielv","#12aa9c"},
+            { "葡萄酱紫", "putaojingzi", "f26b1f" },
+            { "猪肝紫", "zhuganzi", "541e24" },
+            { "酱紫", "jingzi", "4d1018" },
+            { "李紫", "lizi", "2b1216" },
+            { "金鱼紫", "jinyuzi", "500a16" },
+            { "石竹紫", "shizuzi", "63071c" },
+            { "淡曙红", "danshuhong", "ee2746" },
+            { "烟红", "yanhong", "894e54" },
+            { "鹅冠红", "eguanhong", "d11a2d" },
+            { "唐菖蒲红", "tangchangpuhong", "de1c31" },
+            { "草茉莉红", "caomolihong", "ef475d" },
+            { "殷红", "yanhong", "82111f" },
+            { "淡茜红", "danqianhong", "e77c8e" },
+            { "月季红", "yuejihong", "ce5777" },
+            { "姜红", "jianghong", "eeb8c3" },
+            { "吊钟花红", "diaozhonghuahong", "2d0c13" },
+            { "夹竹桃红", "jiazhutaohong", "eb507e" },
     };
 
 
