@@ -41,8 +41,22 @@ public class MainActivity extends AppCompatActivity {
             { "栀子黄", "Zhizihuang", "#ebb10b"},
             { "香蕉黄", "Xiangjiaohuang", "#e4bf11" },
             { "硫华黄", "Liuhuahuang", "#f2ce2b" },
-            { "燕羽灰", "Yanyuhui", "#685e48" }
-        };
+            { "燕羽灰", "Yanyuhui", "#685e48" },
+            
+            {"松霜绿","Songshuanglv","#84a78d"},
+            {"玉髓绿","yusuilv","#41b349"},
+            {"孔雀绿","kongquelv","#229453"},
+            {"深海绿","shenghailv","#1a3b32"},
+            {"飞泉绿","feiquanlv","#497568"},
+            {"清水蓝","qingshuilan","#93d5dc"},
+            {"甸子蓝","dianzilan","#10aec2"},
+            {"晚波蓝","wanbolan","#648e93"},
+            {"蔚蓝","weilan","#29b7cb"},
+            {"鸢尾蓝","yuanweilan","#158bb8"},
+            {"涧石蓝","jianshilan","#66a9c9"},
+            {"牵牛花蓝","qianniuhualan","#1177b0"},
+            {"美蝶绿","meidielv","#12aa9c"}
+    };
 
 
     @Override
