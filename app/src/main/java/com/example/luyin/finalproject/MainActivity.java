@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
             { "玉红", "Yuhong", "#c04851", },
             { "高粱红", "Gaolianghong", "#c02c38", },
             { "满江红", "Manjianghong", "#a7535a", },
-
             { "合欢红", "Hehuanhong", "#f0a1a8", },
             {"品蓝","Pinlan","#2B73AF"},
             {"景泰蓝","Jingtailan","#2775B6"},
@@ -41,8 +40,16 @@ public class MainActivity extends AppCompatActivity {
             { "栀子黄", "Zhizihuang", "#ebb10b"},
             { "香蕉黄", "Xiangjiaohuang", "#e4bf11" },
             { "硫华黄", "Liuhuahuang", "#f2ce2b" },
-            { "燕羽灰", "Yanyuhui", "#685e48" }
-        };
+            { "燕羽灰", "Yanyuhui", "#685e48" },
+            {"蛙绿","walv","#45B787"},
+            {"铜绿","Tonglv","#2BAE85"},
+            {"荷叶绿","heyelv","#1a6840"},
+            {"粉绿","fenlv","#83cbac"},
+            {"麦苗绿","maimiaolv","#55bb8a"},
+            {"玉簪绿","yuzanlv","#a4cab6"},
+            {"寇梢绿","koushaolv","#5dbe8a"},
+
+    };
 
 
     @Override

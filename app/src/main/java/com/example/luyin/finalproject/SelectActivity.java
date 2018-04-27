@@ -46,6 +46,14 @@ public class SelectActivity extends AppCompatActivity {
         final Button button016 = (Button) findViewById(R.id.button016);
         final Button button017 = (Button) findViewById(R.id.button017);
         final Button button018 = (Button) findViewById(R.id.button018);
+        final Button button019 = (Button) findViewById(R.id.button019);
+        final Button button020 = (Button) findViewById(R.id.button020);
+        final Button button021 = (Button) findViewById(R.id.button021);
+        final Button button022 = (Button) findViewById(R.id.button022);
+        final Button button023 = (Button) findViewById(R.id.button023);
+        final Button button024 = (Button) findViewById(R.id.button024);
+        final Button button025 = (Button) findViewById(R.id.button025);
+
 
 
 
@@ -71,6 +79,13 @@ public class SelectActivity extends AppCompatActivity {
         button016.setTypeface(tf);
         button017.setTypeface(tf);
         button018.setTypeface(tf);
+        button019.setTypeface(tf);
+        button020.setTypeface(tf);
+        button021.setTypeface(tf);
+        button022.setTypeface(tf);
+        button023.setTypeface(tf);
+        button024.setTypeface(tf);
+        button025.setTypeface(tf);
 
         button000.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -273,6 +288,82 @@ public class SelectActivity extends AppCompatActivity {
         });
 
         button018.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+            }
+        });
+
+        button019.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+            }
+        });
+
+        button020.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+            }
+        });
+
+        button021.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+            }
+        });
+
+        button022.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+            }
+        });
+
+        button023.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+            }
+        });
+        button024.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+            }
+        });
+
+        button025.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 String buttonId = v.getResources().getResourceName(v.getId());
