@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             { "香蕉黄", "Xiangjiaohuang", "#e4bf11" },
             { "硫华黄", "Liuhuahuang", "#f2ce2b" },
             { "燕羽灰", "Yanyuhui", "#685e48" },
-            
+
             {"松霜绿","Songshuanglv","#84a78d"},
             {"玉髓绿","yusuilv","#41b349"},
             {"孔雀绿","kongquelv","#229453"},
