@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
             { "玉红", "Yuhong", "#c04851", },
             { "高粱红", "Gaolianghong", "#c02c38", },
             { "满江红", "Manjianghong", "#a7535a", },
-
             { "合欢红", "Hehuanhong", "#f0a1a8", },
             {"品蓝","Pinlan","#2B73AF"},
             {"景泰蓝","Jingtailan","#2775B6"},
@@ -42,7 +41,13 @@ public class MainActivity extends AppCompatActivity {
             { "香蕉黄", "Xiangjiaohuang", "#e4bf11" },
             { "硫华黄", "Liuhuahuang", "#f2ce2b" },
             { "燕羽灰", "Yanyuhui", "#685e48" },
-
+            {"蛙绿","walv","#45B787"},
+            {"铜绿","Tonglv","#2BAE85"},
+            {"荷叶绿","heyelv","#1a6840"},
+            {"粉绿","fenlv","#83cbac"},
+            {"麦苗绿","maimiaolv","#55bb8a"},
+            {"玉簪绿","yuzanlv","#a4cab6"},
+            {"寇梢绿","koushaolv","5dbe8a"},
             {"松霜绿","Songshuanglv","#84a78d"},
             {"玉髓绿","yusuilv","#41b349"},
             {"孔雀绿","kongquelv","#229453"},
@@ -55,8 +60,48 @@ public class MainActivity extends AppCompatActivity {
             {"鸢尾蓝","yuanweilan","#158bb8"},
             {"涧石蓝","jianshilan","#66a9c9"},
             {"牵牛花蓝","qianniuhualan","#1177b0"},
-            {"美蝶绿","meidielv","#12aa9c"}
-    };
+            {"美蝶绿","meidielv","#12aa9c"},
+
+            { "葡萄酱紫", "putaojingzi", "#5a1216" },
+            { "猪肝紫", "zhuganzi", "#541e24" },
+            { "酱紫", "jiangzi", "#4d1018" },
+            { "李紫", "lizi", "#2b1216" },
+            { "金鱼紫", "jinyuzi", "#500a16" },
+            { "石竹紫", "shizuzi", "#63071c" },
+            { "淡曙红", "danshuhong","#ee2746" },
+            { "烟红", "yanhong", "#894e54" },
+            { "鹅冠红", "eguanhong", "#d11a2d" },
+            { "唐菖蒲红", "tangchangpuhong", "#de1c31" },
+            { "草茉莉红", "caomolihong", "#ef475d" },
+            { "殷红", "yanhong", "#82111f" },
+            { "淡茜红", "danqianhong", "#e77c8e" },
+            { "月季红", "yuejihong", "#ce5777" },
+            { "姜红", "jianghong", "#eeb8c3" },
+            { "吊钟花红", "diaozhonghuahong", "#2d0c13" },
+            { "夹竹桃红", "jiazhutaohong", "#eb507e" },
+
+            {"夜灰","yehui","#847c74"},
+            {"淡银灰","danyinhui","#c1b2a3"},
+            {"玛瑙灰","manaohui","#cfccc9"},
+            {"鹤灰","hehui","#4a4035"},
+            {"淡米粉","danmifen","#fbeee2"},
+            {"海鸥灰","haiouhui","#9a8878"},
+            {"松鼠灰","songshuhui","#4f4032"},
+            {"银灰","yinhui","#918072"},
+            {"驼色","tuose","#66462a"},
+            {"雁灰","yanhui","#80766e"},
+            {"藕荷","ouhe","#edc3ae"},
+            {"中灰驼","zhonghuituo","#603d30"},
+            {"瓦灰","wahui","#867e76"},
+            {"淡松烟","dansongyan","#4d4030"},
+            {"猴毛灰","houmaohui","#97844c"},
+            {"茶褐","chahe","#5d3d21"},
+            {"古铜褐","gutonghe","#5c3719"},
+            {"槟榔棕","binglangzong","#c1651a"},
+            {"鹿皮褐","lupihe","#d99156"},
+            {"玫瑰粉","meiguifen","#f8b37f"},
+            {"铁棕","tiezong","#d85916"}
+};
 
 
     @Override
