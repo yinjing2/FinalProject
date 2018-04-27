@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             { "玉红", "Yuhong", "#c04851", },
             { "高粱红", "Gaolianghong", "#c02c38", },
             { "满江红", "Manjianghong", "#a7535a", },
+
             { "合欢红", "Hehuanhong", "#f0a1a8", },
             {"品蓝","Pinlan","#2B73AF"},
             {"景泰蓝","Jingtailan","#2775B6"},
@@ -41,14 +42,20 @@ public class MainActivity extends AppCompatActivity {
             { "香蕉黄", "Xiangjiaohuang", "#e4bf11" },
             { "硫华黄", "Liuhuahuang", "#f2ce2b" },
             { "燕羽灰", "Yanyuhui", "#685e48" },
-            {"蛙绿","walv","#45B787"},
-            {"铜绿","Tonglv","#2BAE85"},
-            {"荷叶绿","heyelv","#1a6840"},
-            {"粉绿","fenlv","#83cbac"},
-            {"麦苗绿","maimiaolv","#55bb8a"},
-            {"玉簪绿","yuzanlv","#a4cab6"},
-            {"寇梢绿","koushaolv","#5dbe8a"},
 
+            {"松霜绿","Songshuanglv","#84a78d"},
+            {"玉髓绿","yusuilv","#41b349"},
+            {"孔雀绿","kongquelv","#229453"},
+            {"深海绿","shenghailv","#1a3b32"},
+            {"飞泉绿","feiquanlv","#497568"},
+            {"清水蓝","qingshuilan","#93d5dc"},
+            {"甸子蓝","dianzilan","#10aec2"},
+            {"晚波蓝","wanbolan","#648e93"},
+            {"蔚蓝","weilan","#29b7cb"},
+            {"鸢尾蓝","yuanweilan","#158bb8"},
+            {"涧石蓝","jianshilan","#66a9c9"},
+            {"牵牛花蓝","qianniuhualan","#1177b0"},
+            {"美蝶绿","meidielv","#12aa9c"}
     };
 
 
