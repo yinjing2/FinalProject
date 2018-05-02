@@ -6,6 +6,7 @@ import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 
 public class SelectActivity extends AppCompatActivity {
@@ -25,6 +26,7 @@ public class SelectActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_select);
 
         final Button button000 = (Button) findViewById(R.id.button000);
@@ -105,6 +107,30 @@ public class SelectActivity extends AppCompatActivity {
         final Button button075 = (Button) findViewById(R.id.button075);
         final Button button076 = (Button) findViewById(R.id.button076);
         final Button button077 = (Button) findViewById(R.id.button077);
+
+        final Button button078 = (Button) findViewById(R.id.button078);
+        final Button button079 = (Button) findViewById(R.id.button079);
+        final Button button080 = (Button) findViewById(R.id.button080);
+        final Button button081 = (Button) findViewById(R.id.button081);
+        final Button button082 = (Button) findViewById(R.id.button082);
+        final Button button083 = (Button) findViewById(R.id.button083);
+        final Button button084 = (Button) findViewById(R.id.button084);
+        final Button button085 = (Button) findViewById(R.id.button085);
+        final Button button086 = (Button) findViewById(R.id.button086);
+        final Button button087 = (Button) findViewById(R.id.button087);
+        final Button button088 = (Button) findViewById(R.id.button088);
+        final Button button089 = (Button) findViewById(R.id.button089);
+        final Button button090 = (Button) findViewById(R.id.button090);
+        final Button button091 = (Button) findViewById(R.id.button091);
+        final Button button092 = (Button) findViewById(R.id.button092);
+        final Button button093 = (Button) findViewById(R.id.button093);
+        final Button button094 = (Button) findViewById(R.id.button094);
+        final Button button095 = (Button) findViewById(R.id.button095);
+        final Button button096 = (Button) findViewById(R.id.button096);
+        final Button button097 = (Button) findViewById(R.id.button097);
+        final Button button098 = (Button) findViewById(R.id.button098);
+        final Button button099 = (Button) findViewById(R.id.button099);
+        final Button button100 = (Button) findViewById(R.id.button100);
 
 
 
@@ -191,6 +217,29 @@ public class SelectActivity extends AppCompatActivity {
         button075.setTypeface(tf);
         button076.setTypeface(tf);
         button077.setTypeface(tf);
+        button078.setTypeface(tf);
+        button079.setTypeface(tf);
+        button080.setTypeface(tf);
+        button081.setTypeface(tf);
+        button082.setTypeface(tf);
+        button083.setTypeface(tf);
+        button084.setTypeface(tf);
+        button085.setTypeface(tf);
+        button086.setTypeface(tf);
+        button087.setTypeface(tf);
+        button088.setTypeface(tf);
+        button089.setTypeface(tf);
+        button090.setTypeface(tf);
+        button091.setTypeface(tf);
+        button092.setTypeface(tf);
+        button093.setTypeface(tf);
+        button094.setTypeface(tf);
+        button095.setTypeface(tf);
+        button096.setTypeface(tf);
+        button097.setTypeface(tf);
+        button098.setTypeface(tf);
+        button099.setTypeface(tf);
+        button100.setTypeface(tf);
 
         button000.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -202,6 +251,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -213,6 +263,8 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+
+                finish();
             }
         });
 
@@ -224,6 +276,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -235,6 +288,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -246,6 +300,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -257,6 +312,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -268,6 +324,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -279,6 +336,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -290,6 +348,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -301,6 +360,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -312,6 +372,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -323,6 +384,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -334,6 +396,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -345,6 +408,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -356,6 +420,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -367,6 +432,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -378,6 +444,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -389,6 +456,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -400,6 +468,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -411,6 +480,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -422,6 +492,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -433,6 +504,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -444,6 +516,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -455,6 +528,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
         button024.setOnClickListener(new View.OnClickListener() {
@@ -465,6 +539,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -476,6 +551,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -487,6 +563,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -498,6 +575,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -509,6 +587,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -520,6 +599,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -531,6 +611,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -542,6 +623,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -553,6 +635,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -564,6 +647,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -575,6 +659,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -586,6 +671,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -597,6 +683,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -608,6 +695,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -619,6 +707,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -630,6 +719,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -641,6 +731,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -652,6 +743,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -663,6 +755,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -674,6 +767,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -685,6 +779,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -696,6 +791,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -707,6 +803,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -718,6 +815,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -729,6 +827,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -740,6 +839,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -751,6 +851,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -762,6 +863,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -773,6 +875,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -784,6 +887,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -795,6 +899,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -806,6 +911,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -817,6 +923,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -828,6 +935,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -839,6 +947,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -850,6 +959,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -861,6 +971,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -872,6 +983,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -883,6 +995,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -894,6 +1007,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -905,6 +1019,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -916,6 +1031,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -927,6 +1043,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -938,6 +1055,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -949,6 +1067,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -960,6 +1079,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -971,6 +1091,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -982,6 +1103,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -993,6 +1115,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -1004,6 +1127,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -1015,6 +1139,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -1026,6 +1151,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -1037,6 +1163,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
@@ -1048,10 +1175,286 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
                 isSent = true;
                 number = Integer.parseInt(num);
+                finish();
             }
         });
 
+        button078.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
 
+        button079.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
 
+        button080.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button081.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button082.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button083.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button084.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button085.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button086.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button087.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button088.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button089.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button090.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button091.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button092.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button093.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button094.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button095.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button096.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button097.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button098.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button099.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
+
+        button100.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                String buttonId = v.getResources().getResourceName(v.getId());
+                String num = buttonId.substring(40);
+                startActivity(intent);
+                isSent = true;
+                number = Integer.parseInt(num);
+                finish();
+            }
+        });
     }
 }
+
+

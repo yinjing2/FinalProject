@@ -727,6 +727,192 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 android:textColor="#ffffff" />
 
+            <Button
+                android:id="@+id/button078"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#5a1f1b"
+                android:text="酱棕"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/button079"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4b2e2b"
+                android:text="玫瑰灰"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button080"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3170a7"
+                android:text="安安蓝"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button081"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#1c2938"
+                android:text="鸽蓝"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button082"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#475164"
+                android:text="鲸鱼灰"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button083"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#142334"
+                android:text="钢青"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button084"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#61649f"
+                android:text="山梗紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button085"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#2d2e36"
+                android:text="牛角灰"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button086"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#2e317c"
+                android:text="满天星紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button087"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0f95b0"
+                android:text="胆矾蓝"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button088"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#3b818c"
+                android:text="蜻蜓蓝"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button089"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#12a182"
+                android:text="蓝绿"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button090"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#12a182"
+                android:text="甘蓝绿"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button091"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#2376b7"
+                android:text="花青"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button092"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c09eaf"
+                android:text="萝兰紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button093"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#7e1671"
+                android:text="魏紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button094"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c8adc4"
+                android:text="风信紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button095"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#813c85"
+                android:text="桔梗紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button096"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#8076a3"
+                android:text="藤萝紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button097"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#806d9e"
+                android:text="槿紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button098"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#1f2040"
+                android:text="晶石紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button099"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#815c94"
+                android:text="蕈紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+            <Button
+                android:id="@+id/button100"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#983680"
+                android:text="芥花紫"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#ffffff" />
+
         </LinearLayout>
     </ScrollView>
 
